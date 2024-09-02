@@ -255,7 +255,7 @@
             {/if}
         </div>
         <!-- Preferred contact -->
-<-- 
+<!-- 
 	<div class="infoSlot">
             {#if manager.preferredContact}
                 <div class="infoIcon">
