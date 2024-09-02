@@ -271,6 +271,7 @@
             {/if}
         </div>
         <!-- Rebuild mode (optional and only displayed for dynasty leagues) -->
+<!--
         {#if dynasty}
             <div class="infoSlot infoRebuild">
                 {#if manager.mode}
