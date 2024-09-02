@@ -51,8 +51,8 @@ export const managers = [
     {  
       //"roster":2,
       "name": "spdstr76",
-      "managerID": "1136309094752796672",
-      //"favoriteTeam": "dal",
+      "managerID": "1136314530834948096",
+      "favoriteTeam": "dal",
     },
     // {
     //   "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
