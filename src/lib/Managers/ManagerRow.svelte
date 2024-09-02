@@ -255,7 +255,8 @@
             {/if}
         </div>
         <!-- Preferred contact -->
-        <-- <div class="infoSlot">
+<-- 
+	<div class="infoSlot">
             {#if manager.preferredContact}
                 <div class="infoIcon">
                     <img class="infoImg" src="/{manager.preferredContact}.png" alt="{manager.preferredContact}"/>
@@ -285,6 +286,7 @@
                     </div>
                 {/if}
             </div>
-        {/if} --><!-- end comment out section-->
+        {/if} 
+--><!-- end comment out section-->
     </div>
 </div>
