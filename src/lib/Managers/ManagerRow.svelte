@@ -231,7 +231,7 @@
 
 <div class="manager" style="{retired ? "background-image: url(/retired.png); background-color: var(--ddd)": ""}" on:click={() => goto(`/manager?manager=${key}`)}>
     <div class="avatarHolder">
-        <img class="photo" src="{getTeamData(leagueTeamManagers.users).avatar}" alt="{manager.name}" />
+        <img class="photo" src="{getTeamData(leagueTeamManagers.users, manager).avatar}" alt="{manager.name}" />
         {#if commissioner}
             <div class="commissionerBadge">
                 <span>C</span>
