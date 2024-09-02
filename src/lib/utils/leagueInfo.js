@@ -1,8 +1,8 @@
 /*   STEP 1   */
 export const leagueID = "1136309094752796672"; // your league ID
 export const leagueName = "Hawk Tuah Legends"; // your league name
-export const dues = 100; // (optional) used in template constitution page
-export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
+export const dues = 0; // (optional) used in template constitution page
+export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
@@ -34,7 +34,7 @@ export const managers = [
        //"bio": "Lorem ipsum...",
        //"photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
        //"fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-       //"favoriteTeam": "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "favoriteTeam": "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        //"mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        //"rival": {
          //name: "Rival", // Can be anything (usually your rival's name)
