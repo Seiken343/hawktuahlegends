@@ -34,7 +34,7 @@ export const managers = [
        //"bio": "Lorem ipsum...",
        //"photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
        //"fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-       //"favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "favoriteTeam": "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        //"mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        //"rival": {
          //name: "Rival", // Can be anything (usually your rival's name)
@@ -48,6 +48,11 @@ export const managers = [
     //   "tradingScale": 10, // 1 - 10
     //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
+  {
+    "name" : "Spdstr",
+    "managerID" : "1136309094752796672",
+    "favoriteTeam": "dal",
+  },
     // {
     //   "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
     //   "name": "Your Name",
